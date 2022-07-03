@@ -1,6 +1,11 @@
 //Entry into the server
 const express = require("express");
+const connectDB = require("./config/db");
+
 const app = express();
+
+//Connect Database
+connectDB();
 
 //Home endpoint
 app.get("/", (req, res) => res.json({ msg: "Welcome to Contact manager " }));

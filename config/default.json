@@ -1,0 +1,3 @@
+{
+  "mongoURL": "mongodb+srv://Emmanuel:emmanuel@cluster0.urbcq.mongodb.net/?retryWrites=true&w=majority"
+}
